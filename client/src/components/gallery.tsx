@@ -12,20 +12,44 @@ const galleryImages = [
     alt: "Modern Kitchen Installation"
   },
   {
+    src: "https://images.unsplash.com/photo-1578662996442-48f60103fc96?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600",
+    alt: "Traditional Cobblestone Driveway"
+  },
+  {
+    src: "https://images.unsplash.com/photo-1590736969955-71cc94901144?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600",
+    alt: "Square Cobblestone Patio"
+  },
+  {
+    src: "https://images.unsplash.com/photo-1589871973318-ca46b5b6b4a8?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600",
+    alt: "Tumbled Cobblestone Garden Path"
+  },
+  {
     src: "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600",
-    alt: "Outdoor Patio Project"
+    alt: "Cobblestone Outdoor Patio"
   },
   {
     src: "https://images.unsplash.com/photo-1497366216548-37526070297c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600",
-    alt: "Commercial Project"
+    alt: "Commercial Cobblestone Installation"
   },
   {
     src: "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600",
-    alt: "Landscape Project"
+    alt: "Landscape Cobblestone Features"
   },
   {
     src: "https://images.unsplash.com/photo-1562182384-08115de5ee97?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600",
-    alt: "Dining Room Project"
+    alt: "Granite Countertop Installation"
+  },
+  {
+    src: "https://images.unsplash.com/photo-1568605117036-5fe5e7bab0b7?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600",
+    alt: "Cobblestone Walkway Design"
+  },
+  {
+    src: "https://images.unsplash.com/photo-1572120360610-d971b9d7767c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600",
+    alt: "Heritage Cobblestone Restoration"
+  },
+  {
+    src: "https://images.unsplash.com/photo-1579952363873-27d3bfad9c0d?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600",
+    alt: "Modern Cobblestone Landscaping"
   }
 ];
 

@@ -34,12 +34,13 @@ Preferred communication style: Simple, everyday language.
 ## Key Components
 
 ### Frontend Components
-- **Layout Components**: Header with navigation, Hero section, Footer
-- **Product Showcase**: Grid-based product display with images and descriptions
-- **Interactive Elements**: Gallery with lightbox functionality, testimonials carousel
+- **Layout Components**: Header with navigation, Hero section, Footer, Categories section
+- **Product Showcase**: Grid-based product display with category filtering and 8 granite products
+- **Interactive Elements**: Gallery with 12 project images including cobblestone projects, testimonials carousel
 - **Contact Form**: Validated form with project type selection and message submission
 - **WhatsApp Integration**: Floating WhatsApp button for instant communication
 - **Responsive Design**: Mobile-first approach with Tailwind breakpoints
+- **Product Categories**: Premium Granite, Cobblestones, Construction Stone, Custom Work
 
 ### Backend Services
 - **Contact API**: Handles form submissions with validation

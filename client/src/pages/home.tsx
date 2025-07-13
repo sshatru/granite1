@@ -1,5 +1,6 @@
 import Header from "@/components/header";
 import Hero from "@/components/hero";
+import Categories from "@/components/categories";
 import Products from "@/components/products";
 import About from "@/components/about";
 import Gallery from "@/components/gallery";
@@ -13,6 +14,7 @@ export default function Home() {
     <div className="min-h-screen">
       <Header />
       <Hero />
+      <Categories />
       <Products />
       <About />
       <Gallery />

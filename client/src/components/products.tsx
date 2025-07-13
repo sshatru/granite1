@@ -1,5 +1,7 @@
+import { useState } from "react";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
+import { Badge } from "@/components/ui/badge";
 
 const products = [
   {
@@ -24,11 +26,25 @@ const products = [
     alt: "Absolute Black Granite"
   },
   {
-    name: "Granite Cobbles",
-    description: "Durable granite cobbles for driveways, pathways and landscaping projects.",
-    category: "Landscaping Stone",
+    name: "Traditional Granite Cobbles",
+    description: "Classic rectangular granite cobbles, perfect for traditional driveways and heritage pathways.",
+    category: "Cobblestones",
     image: "https://images.unsplash.com/photo-1578662996442-48f60103fc96?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600",
-    alt: "Granite Cobbles"
+    alt: "Traditional Granite Cobbles"
+  },
+  {
+    name: "Square Granite Cobblestones",
+    description: "Uniform square-cut cobblestones ideal for patios, courtyards and modern landscaping.",
+    category: "Cobblestones",
+    image: "https://images.unsplash.com/photo-1590736969955-71cc94901144?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600",
+    alt: "Square Granite Cobblestones"
+  },
+  {
+    name: "Tumbled Granite Cobbles",
+    description: "Naturally weathered cobbles with rounded edges, perfect for rustic garden paths.",
+    category: "Cobblestones",
+    image: "https://images.unsplash.com/photo-1589871973318-ca46b5b6b4a8?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600",
+    alt: "Tumbled Granite Cobbles"
   },
   {
     name: "Granite Kerbs",
@@ -47,6 +63,14 @@ const products = [
 ];
 
 export default function Products() {
+  const [selectedCategory, setSelectedCategory] = useState<string>("All");
+  
+  const categories = ["All", "Premium Granite", "Cobblestones", "Construction Stone", "Custom Work"];
+  
+  const filteredProducts = selectedCategory === "All" 
+    ? products 
+    : products.filter(product => product.category === selectedCategory);
+
   const scrollToContact = () => {
     const element = document.querySelector("#contact");
     if (element) {
@@ -73,8 +97,25 @@ export default function Products() {
           </p>
         </div>
 
+        {/* Category Filter */}
+        <div className="flex flex-wrap justify-center gap-4 mb-12">
+          {categories.map((category) => (
+            <Button
+              key={category}
+              variant={selectedCategory === category ? "default" : "outline"}
+              onClick={() => setSelectedCategory(category)}
+              className={selectedCategory === category 
+                ? "bg-primary text-white" 
+                : "border-primary text-primary hover:bg-primary hover:text-white"
+              }
+            >
+              {category}
+            </Button>
+          ))}
+        </div>
+
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-          {products.map((product, index) => (
+          {filteredProducts.map((product, index) => (
             <Card 
               key={index} 
               className="bg-stone overflow-hidden hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2"
