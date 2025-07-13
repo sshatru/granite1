@@ -1,0 +1,84 @@
+"Create a modern, responsive website for a granite and stone product supplier named 'ISKCON Granite'. The site should be clean, professional, and focused on showcasing different granite products for sale, targeting buyers in the construction, landscaping, and home improvement sectors. Use the website https://granitesettsuk.co.uk/ as inspiration, but improve the design with a more modern layout, high-resolution images, and better mobile responsiveness.
+
+Website Requirements:
+
+Branding
+
+Website Title: ISKCON Granite
+
+Logo placeholder
+
+Colors: Earthy tones (granite grey, sandstone beige, deep charcoal, white)
+
+Font: Modern, clean serif or sans-serif
+
+Header
+
+Logo (top-left)
+
+Navigation menu: Home, About Us, Products, Gallery, Contact
+
+Optional: WhatsApp/Call button for inquiries
+
+Hero Section
+
+Full-width high-resolution banner image of granite slabs or installations
+
+Bold heading: "Premium Granite & Stone Products"
+
+Subtext: "Delivering high-quality granite for homes, landscapes & construction projects"
+
+CTA Button: "View Products"
+
+Products Section
+
+Grid or card layout of granite products (e.g., Black Galaxy, Tan Brown, Absolute Black, Cobbles, Kerbs)
+
+Each card includes: Image, Name, Short description, "Enquire Now" button
+
+About Us Section
+
+2-column layout with text and image
+
+Story of ISKCON Granite, years of experience, and commitment to quality
+
+Gallery
+
+Lightbox image gallery showcasing past work and product usage in real projects
+
+Contact Section
+
+Contact form: Name, Email, Phone, Message
+
+Embedded Google Map showing business location
+
+Business details: phone number, email, working hours
+
+Footer
+
+Quick links
+
+Social media handles (Instagram, WhatsApp, Facebook)
+
+Copyright and credits
+
+Tech Specs
+
+Mobile-friendly
+
+SEO-optimized
+
+Fast-loading images
+
+Optional blog section for SEO/articles (e.g., "How to choose granite for your kitchen")
+
+Bonus Features (optional)
+
+Product filtering (by type, color, application)
+
+Downloadable product catalog PDF
+
+WhatsApp floating button for instant inquiry
+
+Testimonials section
+
