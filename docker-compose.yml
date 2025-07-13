@@ -1,0 +1,14 @@
+version: '3.8'
+
+services:
+  iskcon-granite:
+    build: .
+    ports:
+      - "5000:5000"
+    volumes:
+      - .:/app
+      - /app/node_modules
+    environment:
+      - NODE_ENV=development
+    restart: unless-stopped
+    container_name: iskcon-granite-website

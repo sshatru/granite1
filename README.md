@@ -5,6 +5,11 @@ A modern, responsive website for ISKCON Granite showcasing premium granite and s
 ## Quick Start
 
 ### Prerequisites
+
+**Option 1: Using Docker (Recommended - No Node.js installation needed)**
+- Docker Desktop - [Download here](https://www.docker.com/products/docker-desktop/)
+
+**Option 2: Direct Installation**
 - **Node.js (version 18 or higher)** - [Download here](https://nodejs.org/)
 - npm (comes with Node.js)
 
@@ -14,6 +19,31 @@ node --version
 ```
 
 ### Installation & Setup
+
+## Method 1: Using Docker (Easiest - Recommended)
+
+1. **Download and Extract**
+   - Download the project as a zip file
+   - Extract it to your desired folder
+   - Open terminal/command prompt and navigate to the project folder:
+   ```bash
+   cd path/to/iskcon-granite-website
+   ```
+
+2. **Run with Docker**
+   ```bash
+   # Build and start the container
+   docker-compose up --build
+   
+   # Or run in background
+   docker-compose up -d --build
+   ```
+
+3. **Open in Browser**
+   - The website will be available at: `http://localhost:5000`
+   - To stop: `docker-compose down`
+
+## Method 2: Direct Installation
 
 1. **Download and Extract**
    - Download the project as a zip file
@@ -82,9 +112,32 @@ tsx server/index.ts
 node --experimental-modules --es-module-specifier-resolution=node server/index.ts
 ```
 
-### Other Common Issues
+### Docker Issues
+
+**Docker not found**
+- Install Docker Desktop from [docker.com](https://www.docker.com/products/docker-desktop/)
+- Make sure Docker Desktop is running
 
 **Port Already in Use**
+```bash
+# Stop any running containers
+docker-compose down
+
+# Use different port (change in docker-compose.yml)
+# Change "5000:5000" to "3000:5000" for example
+```
+
+**Container Build Issues**
+```bash
+# Clean rebuild
+docker-compose down
+docker system prune -f
+docker-compose up --build
+```
+
+### Other Common Issues
+
+**Port Already in Use (Direct Installation)**
 If port 5000 is busy, the server will automatically try other ports (5001, 5002, etc.)
 
 **Dependencies Installation Failed**
