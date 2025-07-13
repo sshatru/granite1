@@ -5,8 +5,13 @@ A modern, responsive website for ISKCON Granite showcasing premium granite and s
 ## Quick Start
 
 ### Prerequisites
-- Node.js (version 18 or higher) - [Download here](https://nodejs.org/)
+- **Node.js (version 18 or higher)** - [Download here](https://nodejs.org/)
 - npm (comes with Node.js)
+
+**Important:** Make sure you have Node.js 18+ installed. Check your version:
+```bash
+node --version
+```
 
 ### Installation & Setup
 
@@ -24,13 +29,77 @@ A modern, responsive website for ISKCON Granite showcasing premium granite and s
    ```
 
 3. **Start the Development Server**
+   
+   **Option A: Standard Method**
    ```bash
    npm run dev
+   ```
+   
+   **Option B: Simple Startup Script (if Option A fails)**
+   ```bash
+   # For Windows users
+   start.bat
+   
+   # For Mac/Linux users
+   node start.js
    ```
 
 4. **Open in Browser**
    - The website will be available at: `http://localhost:5000`
    - The development server will automatically reload when you make changes
+
+## Troubleshooting
+
+### Error: "Unexpected token '.'" or ES Module Issues
+
+This error usually occurs when Node.js version is too old. Here are the solutions:
+
+**Solution 1: Update Node.js (Recommended)**
+1. Download and install Node.js 18+ from [nodejs.org](https://nodejs.org/)
+2. Restart your terminal
+3. Try running the project again
+
+**Solution 2: Use the Simple Startup Script**
+We've included a compatibility script that works with older Node.js versions:
+
+```bash
+# Run the simple startup script
+node start.js
+```
+
+**Solution 3: Use Alternative Commands**
+If the startup script doesn't work, try these commands:
+
+```bash
+# Method 1: Using npx
+npx tsx server/index.ts
+
+# Method 2: Install tsx globally first
+npm install -g tsx
+tsx server/index.ts
+
+# Method 3: Use experimental modules (older Node.js)
+node --experimental-modules --es-module-specifier-resolution=node server/index.ts
+```
+
+### Other Common Issues
+
+**Port Already in Use**
+If port 5000 is busy, the server will automatically try other ports (5001, 5002, etc.)
+
+**Dependencies Installation Failed**
+```bash
+# Clear npm cache and reinstall
+npm cache clean --force
+rm -rf node_modules package-lock.json
+npm install
+```
+
+**Permission Issues (macOS/Linux)**
+```bash
+# Use sudo if needed
+sudo npm install
+```
 
 ### Production Build
 
