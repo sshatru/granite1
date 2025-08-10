@@ -1,71 +1,150 @@
 import { useState } from "react";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
-import { Badge } from "@/components/ui/badge";
 
-const products = [
+type Product = {
+  name: string;
+  description: string;
+  category: string;
+  image: string;
+  alt: string;
+};
+
+const products: Product[] = [
   {
-    name: "Black Galaxy",
+    name: "Grey Granite Hand Cut",
     description: "Elegant black granite with silver speckles, perfect for premium countertops and flooring.",
     category: "Premium Granite",
-    image: "https://images.unsplash.com/photo-1615971677499-5467cbab01c0?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600",
-    alt: "Black Galaxy Granite"
+    image: "/images/grey/grey_1.jpg",
+    alt: "Grey Granite Hand Cut Granite"
   },
   {
-    name: "Tan Brown",
-    description: "Warm brown granite with intricate patterns, ideal for kitchen countertops and vanities.",
+    name: "Grey Granite Hand Cut",
+    description: "Elegant black granite with silver speckles, perfect for premium countertops and flooring.",
     category: "Premium Granite",
-    image: "https://images.unsplash.com/photo-1617806118233-18e1de247200?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600",
-    alt: "Tan Brown Granite"
+    image: "/images/grey/grey_2.jpg",
+    alt: "Grey Granite Hand Cut Granite"
   },
   {
-    name: "Absolute Black",
-    description: "Pure black granite with mirror finish, sophisticated choice for modern interiors.",
+    name: "Grey Granite Hand Cut",
+    description: "Elegant black granite with silver speckles, perfect for premium countertops and flooring.",
     category: "Premium Granite",
-    image: "https://images.unsplash.com/photo-1610563166150-b34df4f3bcd6?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600",
-    alt: "Absolute Black Granite"
+    image: "/images/grey/grey_3.jpg",
+    alt: "Grey Granite Hand Cut Granite"
   },
   {
-    name: "Traditional Granite Cobbles",
+    name: "Grey Granite Hand Cut",
+    description: "Elegant black granite with silver speckles, perfect for premium countertops and flooring.",
+    category: "Premium Granite",
+    image: "/images/grey/grey_4.jpg",
+    alt: "Grey Granite Hand Cut Granite"
+  },
+  {
+    name: "Red Granite Machine Cut",
+    description: "Elegant black granite with silver speckles, perfect for premium countertops and flooring.",
+    category: "Premium Granite",
+    image: "/images/machine_cut_red/machine_cut_red_1.jpg",
+    alt: "Red Granite Machine Cut"
+  },
+  {
+    name: "Red Granite Machine Cut",
+    description: "Elegant black granite with silver speckles, perfect for premium countertops and flooring.",
+    category: "Premium Granite",
+    image: "/images/machine_cut_red/machine_cut_red_2.jpg",
+    alt: "Red Granite Machine Cut"
+  },
+  {
+    name: "Red Granite Machine Cut",
+    description: "Elegant black granite with silver speckles, perfect for premium countertops and flooring.",
+    category: "Premium Granite",
+    image: "/images/machine_cut_red/machine_cut_red_3.jpg",
+    alt: "Red Granite Machine Cut"
+  },
+  {
+    name: "Red Granite Machine Cut",
+    description: "Elegant black granite with silver speckles, perfect for premium countertops and flooring.",
+    category: "Premium Granite",
+    image: "/images/machine_cut_red/machine_cut_red_4.jpg",
+    alt: "Red Granite Machine Cut"
+  },
+  {
+    name: "Red Granite Machine Cut",
+    description: "Elegant black granite with silver speckles, perfect for premium countertops and flooring.",
+    category: "Premium Granite",
+    image: "/images/machine_cut_red/machine_cut_red_5.jpg",
+    alt: "Red Granite Machine Cut"
+  },
+  {
+    name: "Red Granite Machine Cut",
+    description: "Elegant black granite with silver speckles, perfect for premium countertops and flooring.",
+    category: "Premium Granite",
+    image: "/images/machine_cut_red/machine_cut_red_6.jpg",
+    alt: "Red Granite Machine Cut"
+  },
+  {
+    name: "Red Granite Machine Cut",
+    description: "Elegant black granite with silver speckles, perfect for premium countertops and flooring.",
+    category: "Premium Granite",
+    image: "/images/machine_cut_red/machine_cut_red_7.jpg",
+    alt: "Red Granite Machine Cut"
+  },
+  {
+    name: "Red Granite Machine Cut",
+    description: "Elegant black granite with silver speckles, perfect for premium countertops and flooring.",
+    category: "Premium Granite",
+    image: "/images/machine_cut_red/machine_cut_red_8.jpg",
+    alt: "Red Granite Machine Cut"
+  },
+  {
+    name: "Red Granite Machine Cut",
+    description: "Elegant black granite with silver speckles, perfect for premium countertops and flooring.",
+    category: "Premium Granite",
+    image: "/images/machine_cut_red/machine_cut_red_9.jpg",
+    alt: "Red Granite Machine Cut"
+  },
+  // {
+  //   name: "Absolute Black",
+  //   description: "Pure black granite with mirror finish, sophisticated choice for modern interiors.",
+  //   category: "Premium Granite",
+  //   image: "https://images.unsplash.com/photo-1610563166150-b34df4f3bcd6?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600",
+  //   alt: "Absolute Black Granite"
+  // },
+  {
+    name: "Red Granite Hand Cut",
     description: "Classic rectangular granite cobbles, perfect for traditional driveways and heritage pathways.",
     category: "Cobblestones",
-    image: "https://images.unsplash.com/photo-1578662996442-48f60103fc96?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600",
+    image: "/images/hand_cut_red_granite/hand_cut_red_1.jpg",
     alt: "Traditional Granite Cobbles"
   },
   {
-    name: "Square Granite Cobblestones",
-    description: "Uniform square-cut cobblestones ideal for patios, courtyards and modern landscaping.",
+    name: "Red Granite Hand Cut",
+    description: "Classic rectangular granite cobbles, perfect for traditional driveways and heritage pathways.",
     category: "Cobblestones",
-    image: "https://images.unsplash.com/photo-1590736969955-71cc94901144?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600",
-    alt: "Square Granite Cobblestones"
+    image: "/images/hand_cut_red_granite/hand_cut_red_2.jpg",
+    alt: "Traditional Granite Cobbles"
   },
   {
-    name: "Tumbled Granite Cobbles",
-    description: "Naturally weathered cobbles with rounded edges, perfect for rustic garden paths.",
+    name: "Red Granite Hand Cut",
+    description: "Classic rectangular granite cobbles, perfect for traditional driveways and heritage pathways.",
     category: "Cobblestones",
-    image: "https://images.unsplash.com/photo-1589871973318-ca46b5b6b4a8?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600",
-    alt: "Tumbled Granite Cobbles"
+    image: "/images/hand_cut_red_granite/hand_cut_red_3.jpg",
+    alt: "Traditional Granite Cobbles"
   },
   {
-    name: "Granite Kerbs",
-    description: "Precision-cut granite kerbs for road construction and urban development projects.",
-    category: "Construction Stone",
-    image: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600",
-    alt: "Granite Kerbs"
+    name: "Red Granite Hand Cut",
+    description: "Classic rectangular granite cobbles, perfect for traditional driveways and heritage pathways.",
+    category: "Cobblestones",
+    image: "/images/hand_cut_red_granite/hand_cut_red_4.jpg",
+    alt: "Traditional Granite Cobbles"
   },
-  {
-    name: "Custom Slabs",
-    description: "Bespoke granite slabs cut to your specifications for unique architectural projects.",
-    category: "Custom Work",
-    image: "https://images.unsplash.com/photo-1604709177225-055f99402ea3?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600",
-    alt: "Granite Slabs"
-  }
+
+
 ];
 
 export default function Products() {
   const [selectedCategory, setSelectedCategory] = useState<string>("All");
   
-  const categories = ["All", "Premium Granite", "Cobblestones", "Construction Stone", "Custom Work"];
+  const categories = ["All", ...Array.from(new Set(products.map(p => p.category)))];
   
   const filteredProducts = selectedCategory === "All" 
     ? products 
@@ -115,15 +194,15 @@ export default function Products() {
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-          {filteredProducts.map((product, index) => (
+          {filteredProducts.map((product) => (
             <Card 
-              key={index} 
+              key={product.name}
               className="bg-stone overflow-hidden hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2"
             >
               <img 
                 src={product.image}
                 alt={product.alt}
-                className="w-full h-64 object-cover"
+                className="w-full h-30 object-cover"
               />
               <CardContent className="p-6">
                 <h3 className="text-2xl font-bold text-primary mb-2">
