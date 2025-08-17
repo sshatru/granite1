@@ -15,126 +15,126 @@ const products: Product[] = [
     name: "Grey Granite Hand Cut",
     description: "Elegant black granite with silver speckles, perfect for premium countertops and flooring.",
     category: "Grey Granite Hand Cut",
-    image: "/images/grey/grey_1.jpg",
+    image: "https://raw.githubusercontent.com/sshatru/granite1/dev2/client/public/images/grey/grey_1.jpg",
     alt: "Grey Granite Hand Cut Granite"
   },
   {
     name: "Grey Granite Hand Cut",
     description: "Elegant black granite with silver speckles, perfect for premium countertops and flooring.",
     category: "Grey Granite Hand Cut",
-    image: "/images/grey/grey_2.jpg",
+    image: "https://raw.githubusercontent.com/sshatru/granite1/dev2/client/public/images/grey/grey_2.jpg",
     alt: "Grey Granite Hand Cut Granite"
   },
   {
     name: "Grey Granite Hand Cut",
     description: "Elegant black granite with silver speckles, perfect for premium countertops and flooring.",
     category: "Grey Granite Hand Cut",
-    image: "/images/grey/grey_3.jpg",
+    image: "https://raw.githubusercontent.com/sshatru/granite1/dev2/client/public/images/grey/grey_3.jpg",
     alt: "Grey Granite Hand Cut Granite"
   },
   {
     name: "Grey Granite Hand Cut",
     description: "Elegant black granite with silver speckles, perfect for premium countertops and flooring.",
     category: "Grey Granite Hand Cut",
-    image: "/images/grey/grey_4.jpg",
+    image: "https://raw.githubusercontent.com/sshatru/granite1/dev2/client/public/images/grey/grey_4.jpg",
     alt: "Grey Granite Hand Cut Granite"
   },
   {
     name: "Red Granite Machine Cut",
     description: "Elegant black granite with silver speckles, perfect for premium countertops and flooring.",
     category: "Red Granite Machine Cut",
-    image: "/images/machine_cut_red/machine_cut_red_1.jpg",
+    image: "https://raw.githubusercontent.com/sshatru/granite1/dev2/client/public/images/machine_cut_red/machine_cut_red_1.jpg",
     alt: "Red Granite Machine Cut"
   },
   {
     name: "Red Granite Machine Cut",
     description: "Elegant black granite with silver speckles, perfect for premium countertops and flooring.",
     category: "Red Granite Machine Cut",
-    image: "/images/machine_cut_red/machine_cut_red_2.jpg",
+    image: "https://raw.githubusercontent.com/sshatru/granite1/dev2/client/public/images/machine_cut_red/machine_cut_red_2.jpg",
     alt: "Red Granite Machine Cut"
   },
   {
     name: "Red Granite Machine Cut",
     description: "Elegant black granite with silver speckles, perfect for premium countertops and flooring.",
     category: "Red Granite Machine Cut",
-    image: "/images/machine_cut_red/machine_cut_red_3.jpg",
+    image: "https://raw.githubusercontent.com/sshatru/granite1/dev2/client/public/images/machine_cut_red/machine_cut_red_3.jpg",
     alt: "Red Granite Machine Cut"
   },
   {
     name: "Red Granite Machine Cut",
     description: "Elegant black granite with silver speckles, perfect for premium countertops and flooring.",
     category: "Red Granite Machine Cut",
-    image: "/images/machine_cut_red/machine_cut_red_4.jpg",
+    image: "https://raw.githubusercontent.com/sshatru/granite1/dev2/client/public/images/machine_cut_red/machine_cut_red_4.jpg",
     alt: "Red Granite Machine Cut"
   },
   {
     name: "Red Granite Machine Cut",
     description: "Elegant black granite with silver speckles, perfect for premium countertops and flooring.",
     category: "Red Granite Machine Cut",
-    image: "/images/machine_cut_red/machine_cut_red_5.jpg",
+    image: "https://raw.githubusercontent.com/sshatru/granite1/dev2/client/public/images/machine_cut_red/machine_cut_red_5.jpg",
     alt: "Red Granite Machine Cut"
   },
   {
     name: "Red Granite Machine Cut",
     description: "Elegant black granite with silver speckles, perfect for premium countertops and flooring.",
     category: "Red Granite Machine Cut",
-    image: "/images/machine_cut_red/machine_cut_red_6.jpg",
+    image: "https://raw.githubusercontent.com/sshatru/granite1/dev2/client/public/images/machine_cut_red/machine_cut_red_6.jpg",
     alt: "Red Granite Machine Cut"
   },
   {
     name: "Red Granite Machine Cut",
     description: "Elegant black granite with silver speckles, perfect for premium countertops and flooring.",
     category: "Red Granite Machine Cut",
-    image: "/images/machine_cut_red/machine_cut_red_7.jpg",
+    image: "https://raw.githubusercontent.com/sshatru/granite1/dev2/client/public/images/machine_cut_red/machine_cut_red_7.jpg",
     alt: "Red Granite Machine Cut"
   },
   {
     name: "Red Granite Machine Cut",
     description: "Elegant black granite with silver speckles, perfect for premium countertops and flooring.",
     category: "Red Granite Machine Cut",
-    image: "/images/machine_cut_red/machine_cut_red_8.jpg",
+    image: "https://raw.githubusercontent.com/sshatru/granite1/dev2/client/public/images/machine_cut_red/machine_cut_red_8.jpg",
     alt: "Red Granite Machine Cut"
   },
   {
     name: "Red Granite Machine Cut",
     description: "Elegant black granite with silver speckles, perfect for premium countertops and flooring.",
     category: "Red Granite Machine Cut",
-    image: "/images/machine_cut_red/machine_cut_red_9.jpg",
+    image: "https://raw.githubusercontent.com/sshatru/granite1/dev2/client/public/images/machine_cut_red/machine_cut_red_9.jpg",
     alt: "Red Granite Machine Cut"
   },
   // {
   //   name: "Absolute Black",
   //   description: "Pure black granite with mirror finish, sophisticated choice for modern interiors.",
   //   category: "Premium Granite",
-  //   image: "https://images.unsplash.com/photo-1610563166150-b34df4f3bcd6?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600",
+  //   image: "https:/https://raw.githubusercontent.com/sshatru/granite1/dev2/client/public/images.unsplash.com/photo-1610563166150-b34df4f3bcd6?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600",
   //   alt: "Absolute Black Granite"
   // },
   {
     name: "Red Granite Hand Cut",
     description: "Classic rectangular granite cobbles, perfect for traditional driveways and heritage pathways.",
     category: "Red Granite Hand Cut",
-    image: "/images/hand_cut_red_granite/hand_cut_red_1.jpg",
+    image: "https://raw.githubusercontent.com/sshatru/granite1/dev2/client/public/images/hand_cut_red_granite/hand_cut_red_1.jpg",
     alt: "Traditional Granite Cobbles"
   },
   {
     name: "Red Granite Hand Cut",
     description: "Classic rectangular granite cobbles, perfect for traditional driveways and heritage pathways.",
     category: "Red Granite Hand Cut",
-    image: "/images/hand_cut_red_granite/hand_cut_red_2.jpg",
+    image: "https://raw.githubusercontent.com/sshatru/granite1/dev2/client/public/images/hand_cut_red_granite/hand_cut_red_2.jpg",
     alt: "Traditional Granite Cobbles"
   },
   {
     name: "Red Granite Hand Cut",
     description: "Classic rectangular granite cobbles, perfect for traditional driveways and heritage pathways.",
     category: "Red Granite Hand Cut",
-    image: "/images/hand_cut_red_granite/hand_cut_red_3.jpg",
+    image: "https://raw.githubusercontent.com/sshatru/granite1/dev2/client/public/images/hand_cut_red_granite/hand_cut_red_3.jpg",
     alt: "Traditional Granite Cobbles"
   },
   {
     name: "Red Granite Hand Cut",
     description: "Classic rectangular granite cobbles, perfect for traditional driveways and heritage pathways.",
     category: "Red Granite Hand Cut",
-    image: "/images/hand_cut_red_granite/hand_cut_red_4.jpg",
+    image: "https://raw.githubusercontent.com/sshatru/granite1/dev2/client/public/images/hand_cut_red_granite/hand_cut_red_4.jpg",
     alt: "Traditional Granite Cobbles"
   },
 

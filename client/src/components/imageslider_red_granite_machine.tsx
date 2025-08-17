@@ -24,63 +24,63 @@ const products: Product[] = [
     name: "Red Granite Machine Cut",
     description: "Elegant black granite with silver speckles, perfect for premium countertops and flooring.",
     category: "Premium Granite",
-    image: "/images/machine_cut_red/machine_cut_red_1.jpg",
+    image: "https://raw.githubusercontent.com/sshatru/granite1/dev2/client/public/images/machine_cut_red/machine_cut_red_1.jpg",
     alt: "Red Granite Machine Cut"
   },
   {
     name: "Red Granite Machine Cut",
     description: "Elegant black granite with silver speckles, perfect for premium countertops and flooring.",
     category: "Premium Granite",
-    image: "/images/machine_cut_red/machine_cut_red_2.jpg",
+    image: "https://raw.githubusercontent.com/sshatru/granite1/dev2/client/public/images/machine_cut_red/machine_cut_red_2.jpg",
     alt: "Red Granite Machine Cut"
   },
   {
     name: "Red Granite Machine Cut",
     description: "Elegant black granite with silver speckles, perfect for premium countertops and flooring.",
     category: "Premium Granite",
-    image: "/images/machine_cut_red/machine_cut_red_3.jpg",
+    image: "https://raw.githubusercontent.com/sshatru/granite1/dev2/client/public/images/machine_cut_red/machine_cut_red_3.jpg",
     alt: "Red Granite Machine Cut"
   },
   {
     name: "Red Granite Machine Cut",
     description: "Elegant black granite with silver speckles, perfect for premium countertops and flooring.",
     category: "Premium Granite",
-    image: "/images/machine_cut_red/machine_cut_red_4.jpg",
+    image: "https://raw.githubusercontent.com/sshatru/granite1/dev2/client/public/images/machine_cut_red/machine_cut_red_4.jpg",
     alt: "Red Granite Machine Cut"
   },
   {
     name: "Red Granite Machine Cut",
     description: "Elegant black granite with silver speckles, perfect for premium countertops and flooring.",
     category: "Premium Granite",
-    image: "/images/machine_cut_red/machine_cut_red_5.jpg",
+    image: "https://raw.githubusercontent.com/sshatru/granite1/dev2/client/public/images/machine_cut_red/machine_cut_red_5.jpg",
     alt: "Red Granite Machine Cut"
   },
   {
     name: "Red Granite Machine Cut",
     description: "Elegant black granite with silver speckles, perfect for premium countertops and flooring.",
     category: "Premium Granite",
-    image: "/images/machine_cut_red/machine_cut_red_6.jpg",
+    image: "https://raw.githubusercontent.com/sshatru/granite1/dev2/client/public/images/machine_cut_red/machine_cut_red_6.jpg",
     alt: "Red Granite Machine Cut"
   },
   {
     name: "Red Granite Machine Cut",
     description: "Elegant black granite with silver speckles, perfect for premium countertops and flooring.",
     category: "Premium Granite",
-    image: "/images/machine_cut_red/machine_cut_red_7.jpg",
+    image: "https://raw.githubusercontent.com/sshatru/granite1/dev2/client/public/images/machine_cut_red/machine_cut_red_7.jpg",
     alt: "Red Granite Machine Cut"
   },
   {
     name: "Red Granite Machine Cut",
     description: "Elegant black granite with silver speckles, perfect for premium countertops and flooring.",
     category: "Premium Granite",
-    image: "/images/machine_cut_red/machine_cut_red_8.jpg",
+    image: "https://raw.githubusercontent.com/sshatru/granite1/dev2/client/public/images/machine_cut_red/machine_cut_red_8.jpg",
     alt: "Red Granite Machine Cut"
   },
   {
     name: "Red Granite Machine Cut",
     description: "Elegant black granite with silver speckles, perfect for premium countertops and flooring.",
     category: "Premium Granite",
-    image: "/images/machine_cut_red/machine_cut_red_9.jpg",
+    image: "https://raw.githubusercontent.com/sshatru/granite1/dev2/client/public/images/machine_cut_red/machine_cut_red_9.jpg",
     alt: "Red Granite Machine Cut"
   },
 ];

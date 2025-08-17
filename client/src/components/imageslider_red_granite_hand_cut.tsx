@@ -23,28 +23,28 @@ const products: Product[] = [
     name: "Red Granite Hand Cut",
     description: "Classic rectangular granite cobbles, perfect for traditional driveways and heritage pathways.",
     category: "Cobblestones",
-    image: "/images/hand_cut_red_granite/hand_cut_red_1.jpg",
+    image: "https://raw.githubusercontent.com/sshatru/granite1/dev2/client/public/images/hand_cut_red_granite/hand_cut_red_1.jpg",
     alt: "Traditional Granite Cobbles"
   },
   {
     name: "Red Granite Hand Cut",
     description: "Classic rectangular granite cobbles, perfect for traditional driveways and heritage pathways.",
     category: "Cobblestones",
-    image: "/images/hand_cut_red_granite/hand_cut_red_2.jpg",
+    image: "https://raw.githubusercontent.com/sshatru/granite1/dev2/client/public/images/hand_cut_red_granite/hand_cut_red_2.jpg",
     alt: "Traditional Granite Cobbles"
   },
   {
     name: "Red Granite Hand Cut",
     description: "Classic rectangular granite cobbles, perfect for traditional driveways and heritage pathways.",
     category: "Cobblestones",
-    image: "/images/hand_cut_red_granite/hand_cut_red_3.jpg",
+    image: "https://raw.githubusercontent.com/sshatru/granite1/dev2/client/public/images/hand_cut_red_granite/hand_cut_red_3.jpg",
     alt: "Traditional Granite Cobbles"
   },
   {
     name: "Red Granite Hand Cut",
     description: "Classic rectangular granite cobbles, perfect for traditional driveways and heritage pathways.",
     category: "Cobblestones",
-    image: "/images/hand_cut_red_granite/hand_cut_red_4.jpg",
+    image: "https://raw.githubusercontent.com/sshatru/granite1/dev2/client/public/images/hand_cut_red_granite/hand_cut_red_4.jpg",
     alt: "Traditional Granite Cobbles"
   },
 ];

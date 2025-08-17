@@ -24,28 +24,28 @@ const products: Product[] = [
     name: "Grey Granite Hand Cut",
     description: "Elegant black granite with silver speckles, perfect for premium countertops and flooring.",
     category: "Premium Granite",
-    image: "/images/grey/grey_1.jpg",
+    image: "https://raw.githubusercontent.com/sshatru/granite1/dev2/client/public/images/grey/grey_1.jpg",
     alt: "Grey Granite Hand Cut Granite"
   },
   {
     name: "Grey Granite Hand Cut",
     description: "Elegant black granite with silver speckles, perfect for premium countertops and flooring.",
     category: "Premium Granite",
-    image: "/images/grey/grey_2.jpg",
+    image: "https://raw.githubusercontent.com/sshatru/granite1/dev2/client/public/images/grey/grey_2.jpg",
     alt: "Grey Granite Hand Cut Granite"
   },
   {
     name: "Grey Granite Hand Cut",
     description: "Elegant black granite with silver speckles, perfect for premium countertops and flooring.",
     category: "Premium Granite",
-    image: "/images/grey/grey_3.jpg",
+    image: "https://raw.githubusercontent.com/sshatru/granite1/dev2/client/public/images/grey/grey_3.jpg",
     alt: "Grey Granite Hand Cut Granite"
   },
   {
     name: "Grey Granite Hand Cut",
     description: "Elegant black granite with silver speckles, perfect for premium countertops and flooring.",
     category: "Premium Granite",
-    image: "/images/grey/grey_4.jpg",
+    image: "https://raw.githubusercontent.com/sshatru/granite1/dev2/client/public/images/grey/grey_4.jpg",
     alt: "Grey Granite Hand Cut Granite"
   },
 
