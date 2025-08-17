@@ -9,15 +9,22 @@ import Contact from "@/components/contact";
 import Footer from "@/components/footer";
 import WhatsAppButton from "@/components/whatsapp-button";
 
+import RedGraniteHandCut from "@/components/imageslider_red_granite_hand_cut";
+import GreyGraniteHandCut from "@/components/imageslider_grey_granite_hand_cut";
+import RedGraniteMachineCut from "@/components/imageslider_red_granite_machine";
+
 export default function Home() {
   return (
     <div className="min-h-screen">
       <Header />
       <Hero />
-      <Categories />
+      <GreyGraniteHandCut />
+      <RedGraniteMachineCut />
+      <RedGraniteHandCut />
+      {/* <Categories /> */}
       <Products />
+      {/* <Gallery /> */}
       <About />
-      <Gallery />
       <Testimonials />
       <Contact />
       <Footer />

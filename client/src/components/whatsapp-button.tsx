@@ -3,7 +3,7 @@ import { SiWhatsapp } from "react-icons/si";
 export default function WhatsAppButton() {
   const handleWhatsAppClick = () => {
     const message = "Hi! I'm interested in your granite products. Could you please provide more information?";
-    const whatsappUrl = `https://wa.me/919876543210?text=${encodeURIComponent(message)}`;
+    const whatsappUrl = `https://wa.me/919889461190?text=${encodeURIComponent(message)}`;
     window.open(whatsappUrl, "_blank");
   };
 

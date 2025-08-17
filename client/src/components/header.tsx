@@ -56,14 +56,14 @@ export default function Header() {
           <div className="hidden md:flex items-center space-x-4">
             <Button
               variant="secondary"
-              onClick={() => window.open("tel:+91-9876543210", "_self")}
+              onClick={() => window.open("tel:+91-9889461190", "_self")}
             >
               <Phone className="mr-2 h-4 w-4" />
               Call Now
             </Button>
             <Button
               className="bg-green-500 hover:bg-green-600"
-              onClick={() => window.open("https://wa.me/919876543210", "_blank")}
+              onClick={() => window.open("https://wa.me/919889461190", "_blank")}
             >
               <SiWhatsapp className="mr-2 h-4 w-4" />
               WhatsApp
@@ -91,14 +91,14 @@ export default function Header() {
                 <div className="flex flex-col space-y-4 pt-4">
                   <Button
                     variant="secondary"
-                    onClick={() => window.open("tel:+91-9876543210", "_self")}
+                    onClick={() => window.open("tel:+91-9889461190", "_self")}
                   >
                     <Phone className="mr-2 h-4 w-4" />
                     Call
                   </Button>
                   <Button
                     className="bg-green-500 hover:bg-green-600"
-                    onClick={() => window.open("https://wa.me/919876543210", "_blank")}
+                    onClick={() => window.open("https://wa.me/919889461190", "_blank")}
                   >
                     <SiWhatsapp className="mr-2 h-4 w-4" />
                     WhatsApp

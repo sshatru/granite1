@@ -14,91 +14,91 @@ const products: Product[] = [
   {
     name: "Grey Granite Hand Cut",
     description: "Elegant black granite with silver speckles, perfect for premium countertops and flooring.",
-    category: "Premium Granite",
+    category: "Grey Granite Hand Cut",
     image: "/images/grey/grey_1.jpg",
     alt: "Grey Granite Hand Cut Granite"
   },
   {
     name: "Grey Granite Hand Cut",
     description: "Elegant black granite with silver speckles, perfect for premium countertops and flooring.",
-    category: "Premium Granite",
+    category: "Grey Granite Hand Cut",
     image: "/images/grey/grey_2.jpg",
     alt: "Grey Granite Hand Cut Granite"
   },
   {
     name: "Grey Granite Hand Cut",
     description: "Elegant black granite with silver speckles, perfect for premium countertops and flooring.",
-    category: "Premium Granite",
+    category: "Grey Granite Hand Cut",
     image: "/images/grey/grey_3.jpg",
     alt: "Grey Granite Hand Cut Granite"
   },
   {
     name: "Grey Granite Hand Cut",
     description: "Elegant black granite with silver speckles, perfect for premium countertops and flooring.",
-    category: "Premium Granite",
+    category: "Grey Granite Hand Cut",
     image: "/images/grey/grey_4.jpg",
     alt: "Grey Granite Hand Cut Granite"
   },
   {
     name: "Red Granite Machine Cut",
     description: "Elegant black granite with silver speckles, perfect for premium countertops and flooring.",
-    category: "Premium Granite",
+    category: "Red Granite Machine Cut",
     image: "/images/machine_cut_red/machine_cut_red_1.jpg",
     alt: "Red Granite Machine Cut"
   },
   {
     name: "Red Granite Machine Cut",
     description: "Elegant black granite with silver speckles, perfect for premium countertops and flooring.",
-    category: "Premium Granite",
+    category: "Red Granite Machine Cut",
     image: "/images/machine_cut_red/machine_cut_red_2.jpg",
     alt: "Red Granite Machine Cut"
   },
   {
     name: "Red Granite Machine Cut",
     description: "Elegant black granite with silver speckles, perfect for premium countertops and flooring.",
-    category: "Premium Granite",
+    category: "Red Granite Machine Cut",
     image: "/images/machine_cut_red/machine_cut_red_3.jpg",
     alt: "Red Granite Machine Cut"
   },
   {
     name: "Red Granite Machine Cut",
     description: "Elegant black granite with silver speckles, perfect for premium countertops and flooring.",
-    category: "Premium Granite",
+    category: "Red Granite Machine Cut",
     image: "/images/machine_cut_red/machine_cut_red_4.jpg",
     alt: "Red Granite Machine Cut"
   },
   {
     name: "Red Granite Machine Cut",
     description: "Elegant black granite with silver speckles, perfect for premium countertops and flooring.",
-    category: "Premium Granite",
+    category: "Red Granite Machine Cut",
     image: "/images/machine_cut_red/machine_cut_red_5.jpg",
     alt: "Red Granite Machine Cut"
   },
   {
     name: "Red Granite Machine Cut",
     description: "Elegant black granite with silver speckles, perfect for premium countertops and flooring.",
-    category: "Premium Granite",
+    category: "Red Granite Machine Cut",
     image: "/images/machine_cut_red/machine_cut_red_6.jpg",
     alt: "Red Granite Machine Cut"
   },
   {
     name: "Red Granite Machine Cut",
     description: "Elegant black granite with silver speckles, perfect for premium countertops and flooring.",
-    category: "Premium Granite",
+    category: "Red Granite Machine Cut",
     image: "/images/machine_cut_red/machine_cut_red_7.jpg",
     alt: "Red Granite Machine Cut"
   },
   {
     name: "Red Granite Machine Cut",
     description: "Elegant black granite with silver speckles, perfect for premium countertops and flooring.",
-    category: "Premium Granite",
+    category: "Red Granite Machine Cut",
     image: "/images/machine_cut_red/machine_cut_red_8.jpg",
     alt: "Red Granite Machine Cut"
   },
   {
     name: "Red Granite Machine Cut",
     description: "Elegant black granite with silver speckles, perfect for premium countertops and flooring.",
-    category: "Premium Granite",
+    category: "Red Granite Machine Cut",
     image: "/images/machine_cut_red/machine_cut_red_9.jpg",
     alt: "Red Granite Machine Cut"
   },
@@ -112,28 +112,28 @@ const products: Product[] = [
   {
     name: "Red Granite Hand Cut",
     description: "Classic rectangular granite cobbles, perfect for traditional driveways and heritage pathways.",
-    category: "Cobblestones",
+    category: "Red Granite Hand Cut",
     image: "/images/hand_cut_red_granite/hand_cut_red_1.jpg",
     alt: "Traditional Granite Cobbles"
   },
   {
     name: "Red Granite Hand Cut",
     description: "Classic rectangular granite cobbles, perfect for traditional driveways and heritage pathways.",
-    category: "Cobblestones",
+    category: "Red Granite Hand Cut",
     image: "/images/hand_cut_red_granite/hand_cut_red_2.jpg",
     alt: "Traditional Granite Cobbles"
   },
   {
     name: "Red Granite Hand Cut",
     description: "Classic rectangular granite cobbles, perfect for traditional driveways and heritage pathways.",
-    category: "Cobblestones",
+    category: "Red Granite Hand Cut",
     image: "/images/hand_cut_red_granite/hand_cut_red_3.jpg",
     alt: "Traditional Granite Cobbles"
   },
   {
     name: "Red Granite Hand Cut",
     description: "Classic rectangular granite cobbles, perfect for traditional driveways and heritage pathways.",
-    category: "Cobblestones",
+    category: "Red Granite Hand Cut",
     image: "/images/hand_cut_red_granite/hand_cut_red_4.jpg",
     alt: "Traditional Granite Cobbles"
   },
@@ -159,7 +159,7 @@ export default function Products() {
 
   const handleEnquiry = (productName: string) => {
     const message = `Hi, I'm interested in ${productName}. Could you please provide more details?`;
-    const whatsappUrl = `https://wa.me/919876543210?text=${encodeURIComponent(message)}`;
+    const whatsappUrl = `https://wa.me/919889461190?text=${encodeURIComponent(message)}`;
     window.open(whatsappUrl, "_blank");
   };
 
@@ -199,11 +199,13 @@ export default function Products() {
               key={product.name}
               className="bg-stone overflow-hidden hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2"
             >
+              <div className="aspect-square w-full overflow-hidden">
               <img 
                 src={product.image}
                 alt={product.alt}
-                className="w-full h-30 object-cover"
+                className="w-full h-full object-cover"
               />
+              </div>
               <CardContent className="p-6">
                 <h3 className="text-2xl font-bold text-primary mb-2">
                   {product.name}
