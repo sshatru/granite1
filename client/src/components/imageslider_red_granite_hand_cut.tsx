@@ -20,28 +20,28 @@ type Product = {
 
 const products: Product[] = [
   {
-    name: "Red Granite Hand Cut",
+    name: "Red Granite Hand Made",
     description: "Classic rectangular granite cobbles, perfect for traditional driveways and heritage pathways.",
     category: "Cobblestones",
     image: "https://raw.githubusercontent.com/sshatru/granite1/dev2/client/public/images/hand_cut_red_granite/hand_cut_red_1.jpg",
     alt: "Traditional Granite Cobbles"
   },
   {
-    name: "Red Granite Hand Cut",
+    name: "Red Granite Hand Made",
     description: "Classic rectangular granite cobbles, perfect for traditional driveways and heritage pathways.",
     category: "Cobblestones",
     image: "https://raw.githubusercontent.com/sshatru/granite1/dev2/client/public/images/hand_cut_red_granite/hand_cut_red_2.jpg",
     alt: "Traditional Granite Cobbles"
   },
   {
-    name: "Red Granite Hand Cut",
+    name: "Red Granite Hand Made",
     description: "Classic rectangular granite cobbles, perfect for traditional driveways and heritage pathways.",
     category: "Cobblestones",
     image: "https://raw.githubusercontent.com/sshatru/granite1/dev2/client/public/images/hand_cut_red_granite/hand_cut_red_3.jpg",
     alt: "Traditional Granite Cobbles"
   },
   {
-    name: "Red Granite Hand Cut",
+    name: "Red Granite Hand Made",
     description: "Classic rectangular granite cobbles, perfect for traditional driveways and heritage pathways.",
     category: "Cobblestones",
     image: "https://raw.githubusercontent.com/sshatru/granite1/dev2/client/public/images/hand_cut_red_granite/hand_cut_red_4.jpg",
@@ -71,11 +71,11 @@ export default function RedGraniteHandCut() {
     window.open(whatsappUrl, "_blank");
   };
     return (
-    <section id="products" className="py-20 bg-white">
+    <section id="RedGraniteHandCut" className="py-20 bg-white">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-primary mb-6">
-            Red Granite Hand Cut
+            Red Granite Hand Made
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
             Discover our extensive range of premium granite and stone products, 

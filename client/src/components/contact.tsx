@@ -190,7 +190,7 @@ export default function Contact() {
                     <MapPin className="text-secondary h-6 w-6 mr-4" />
                     <div>
                       <h4 className="font-semibold">Address</h4>
-                      <p>123 Granite Street, Industrial Area, New Delhi - 110020</p>
+                      <p>Iskcon granite, Nehru nagar, Lalitpur, U.P - 284403</p>
                     </div>
                   </div>
                   <div className="flex items-center">
@@ -204,7 +204,7 @@ export default function Contact() {
                     <Mail className="text-secondary h-6 w-6 mr-4" />
                     <div>
                       <h4 className="font-semibold">Email</h4>
-                      <p>info@iskcongranite.com</p>
+                      <p>graniteiskcon@gmail.com</p>
                     </div>
                   </div>
                   <div className="flex items-center">

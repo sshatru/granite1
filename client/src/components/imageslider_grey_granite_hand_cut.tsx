@@ -21,32 +21,32 @@ type Product = {
 const products: Product[] = [
     // ... your products array remains the same
   {
-    name: "Grey Granite Hand Cut",
+    name: "Grey Granite Hand Made",
     description: "Elegant black granite with silver speckles, perfect for premium countertops and flooring.",
     category: "Premium Granite",
     image: "https://raw.githubusercontent.com/sshatru/granite1/dev2/client/public/images/grey/grey_1.jpg",
-    alt: "Grey Granite Hand Cut Granite"
+    alt: "Grey Granite Hand Made Granite"
   },
   {
-    name: "Grey Granite Hand Cut",
+    name: "Grey Granite Hand Made",
     description: "Elegant black granite with silver speckles, perfect for premium countertops and flooring.",
     category: "Premium Granite",
     image: "https://raw.githubusercontent.com/sshatru/granite1/dev2/client/public/images/grey/grey_2.jpg",
-    alt: "Grey Granite Hand Cut Granite"
+    alt: "Grey Granite Hand Made Granite"
   },
   {
-    name: "Grey Granite Hand Cut",
+    name: "Grey Granite Hand Made",
     description: "Elegant black granite with silver speckles, perfect for premium countertops and flooring.",
     category: "Premium Granite",
     image: "https://raw.githubusercontent.com/sshatru/granite1/dev2/client/public/images/grey/grey_3.jpg",
-    alt: "Grey Granite Hand Cut Granite"
+    alt: "Grey Granite Hand Made Granite"
   },
   {
-    name: "Grey Granite Hand Cut",
+    name: "Grey Granite Hand Made",
     description: "Elegant black granite with silver speckles, perfect for premium countertops and flooring.",
     category: "Premium Granite",
     image: "https://raw.githubusercontent.com/sshatru/granite1/dev2/client/public/images/grey/grey_4.jpg",
-    alt: "Grey Granite Hand Cut Granite"
+    alt: "Grey Granite Hand Made Granite"
   },
 
 ];
@@ -74,11 +74,11 @@ export default function GreyGraniteHandCut() {
   };
 
   return (
-    <section id="products" className="py-20 bg-white">
+    <section id="GreyGraniteHandCut" className="py-20 bg-white">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-primary mb-6">
-            Grey Granite Hand Cut
+            Grey Granite Hand Made
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
             Discover our extensive range of premium granite and stone products, 
