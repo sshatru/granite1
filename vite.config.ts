@@ -29,9 +29,10 @@ export default defineConfig(({ command }) => {
     },
   };
 
-  // This is the key: only apply the 'base' for the production build
+  // Change the base path for the production build to the root of the domain.
+  // The base path should be '/' for a custom domain.
   if (command === 'build') {
-    config.base = '/granite1/';
+    config.base = '/';
   }
 
   return config;
