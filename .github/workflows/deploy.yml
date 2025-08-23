@@ -2,7 +2,7 @@ name: Deploy React App to GitHub Pages
 
 on:
   push:
-    branches: ["dev2"] # Make sure this is your deployment branch
+    branches: ["INT"] # Make sure this is your deployment branch
   workflow_dispatch:
 
 permissions:
